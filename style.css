@@ -298,6 +298,9 @@ a {
     width: 30px;
     height: 0.8rem;
   }
+   .column{
+    font-size: 0.5rem;
+  }
 
   .column{
     font-size: 0.8rem;
