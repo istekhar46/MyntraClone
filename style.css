@@ -300,6 +300,9 @@ a {
   }
 
   .column{
+    font-size: 0.8rem;
+  }
+  .column a{
     font-size: 0.5rem;
   }
 }
