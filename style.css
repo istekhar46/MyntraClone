@@ -7,6 +7,10 @@
     /* box-sizing: border-box; */
 }
 
+html{
+    overflow-x: hidden;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -23,7 +27,7 @@ header {
 .container {
     font-family: 'poppins', sans-serif;
     font-weight: 800;
-    padding: 8px 40px;
+    padding: 5px;
     box-shadow: 0.1pc 3px 10px #9c9c9c9c;
 }
 
@@ -198,6 +202,7 @@ a {
         width: 100vw;
         height: 100vh;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .mobile-navbar-btn {
@@ -273,7 +278,11 @@ a {
     .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
         display: none;
     }
-
+     
+    .sec1 img{
+        max-height: 60vh;
+        width: 90%;
+    }
    .sec2{
     /* width: 200px; */
     height: 15vh;
@@ -281,8 +290,9 @@ a {
 
    .sec3 img{
     height: 25vh;
-    width: 100px;
-    margin: 2px;
+    width: 80px;
+    padding: 0;
+    margin: 0;
    }
 
 
