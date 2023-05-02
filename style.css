@@ -139,7 +139,6 @@ nav img {
 
 .foot {
     margin: 40px 0;
-    padding: 0 100px;
     box-shadow: none;
     background-color: #e7e3e3d0;
 }
@@ -295,5 +294,9 @@ a {
     margin: 0;
    }
 
+  .img-app img{
+    width: 30px;
+    height: 0.8rem;
+  }
 
 }
